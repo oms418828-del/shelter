@@ -1,0 +1,24 @@
+body {
+  background-image: url('/static/allimage/loginimage.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.login-card {
+  background: rgba(255,255,255,0.95);
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+.logo { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 1rem; }
+.login-card input { width:100%; padding:0.75rem; margin-bottom:1rem; border-radius:0.5rem; border:1px solid #ccc; }
+.login-card button { width:100%; padding:0.75rem; background:#facc15; border:none; border-radius:0.5rem; font-weight:700; }

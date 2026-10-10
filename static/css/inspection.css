@@ -1,0 +1,40 @@
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+      background-size: cover;
+    }
+    .logo {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: 2px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .logo .highlight {
+      background: linear-gradient(135deg, #ff914d, #ff5757);
+      color: #fff;
+      padding: 3px 12px;
+      border-radius: 12px;
+    }
+    .logo .paw {
+      font-size: 1.6rem;
+      color: #16a34a;
+    }
+    .banner-text h2 {
+      text-shadow: 3px 3px 10px rgba(0,0,0,0.8);
+    }
+    .banner-text p {
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+    .bg-overlay {
+      background: rgba(255, 255, 255, 0.85); /* Slightly more transparent */
+      backdrop-filter: blur(10px);
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    .bg-overlay.show {
+      opacity: 1;
+      transform: translateY(0);
+    }

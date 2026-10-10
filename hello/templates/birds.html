@@ -1,0 +1,142 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adopt a Bird - Shelter</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body class="text-gray-900">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-8 py-5">
+      <div class="text-2xl font-bold text-gray-900 flex items-center gap-2">
+        Shelter <span class="paw-bounce">🐦</span>
+      </div>
+      <nav class="flex items-center space-x-8 text-lg font-semibold">
+        <a href="index.html" class="hover:opacity-70">Home</a>
+        <a href="dogs.html" class="hover:opacity-70">Dogs</a>
+        <a href="cats.html" class="hover:opacity-70">Cats</a>
+        <a href="others.html" class="hover:opacity-70">Others</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Title Section -->
+  <section class="py-24 text-center">
+    <h1 class="page-title">Adopt a Bird</h1>
+    <p class="page-subtitle">Brighten your life with a feathered friend</p>
+  </section>
+
+  <!-- Adoption Section -->
+  <section class="max-w-6xl mx-auto px-6 pb-20 space-y-16">
+
+    <!-- Bird 1 -->
+    <div class="bird-card">
+      <div class="bird-img-wrapper">
+        <img src="bird2.jpg" alt="Sunny">
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Sunny</h2>
+        <p class="text-gray-600 mb-4">
+          Sunny is a cheerful 2-year-old parakeet with a bright yellow coat. He loves singing in the mornings and enjoys being around people. 
+          Perfect for first-time bird owners looking for a playful, low-maintenance companion.
+        </p>
+        <button class="btn">Adopt Sunny</button>
+      </div>
+    </div>
+
+    <!-- Bird 2 -->
+    <div class="bird-card reverse">
+      <div class="bird-img-wrapper">
+        <img src="bird1.jpg" alt="Rio">
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Rio</h2>
+        <p class="text-gray-600 mb-4">
+          Rio is a vibrant blue-and-green macaw, 3 years old. Smart and talkative, he loves mimicking sounds and interacting with his family. 
+          He thrives in active households where he gets plenty of attention and stimulation.
+        </p>
+        <button class="btn">Adopt Rio</button>
+      </div>
+    </div>
+
+    <!-- Bird 3 -->
+    <div class="bird-card">
+      <div class="bird-img-wrapper">
+        <img src="bird3.jpg" alt="Peach">
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Peach</h2>
+        <p class="text-gray-600 mb-4">
+          Peach is a 1-year-old lovebird with a soft pink and green feather pattern. She is affectionate and bonds deeply with her caregivers. 
+          She loves perching on shoulders and chirping sweetly throughout the day.
+        </p>
+        <button class="btn">Adopt Peach</button>
+      </div>
+    </div>
+
+    <!-- Bird 4 -->
+    <div class="bird-card reverse">
+      <div class="bird-img-wrapper">
+        <img src="bird4.jpg" alt="Kiwi">
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Kiwi</h2>
+        <p class="text-gray-600 mb-4">
+          Kiwi is a playful cockatiel, 2 years old. He whistles, mimics tunes, and loves head scratches. 
+          Gentle and curious, Kiwi is ideal for families and individuals who want an interactive feathered friend.
+        </p>
+        <button class="btn">Adopt Kiwi</button>
+      </div>
+    </div>
+
+    <!-- Bird 5 -->
+    <div class="bird-card">
+      <div class="bird-img-wrapper">
+        <img src="bird5.jpg" alt="Coco">
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Coco</h2>
+        <p class="text-gray-600 mb-4">
+          Coco is a 4-year-old African Grey parrot, one of the most intelligent bird breeds. 
+          He has a growing vocabulary and enjoys interactive play. Coco is best suited for experienced bird lovers who can provide training and engagement.
+        </p>
+        <button class="btn">Adopt Coco</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-yellow-400 text-gray-900 py-12 mt-12">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8 text-center md:text-left">
+      <div>
+        <h3 class="text-xl font-bold mb-4">Shelter</h3>
+        <p class="text-gray-800">Giving abandoned birds a second chance with loving families.</p>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-3">Quick Links</h4>
+        <ul class="space-y-2">
+          <li><a href="index.html" class="hover:opacity-70">Home</a></li>
+          <li><a href="dogs.html" class="hover:opacity-70">Dogs</a></li>
+          <li><a href="cats.html" class="hover:opacity-70">Cats</a></li>
+          <li><a href="others.html" class="hover:opacity-70">Others</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-3">Contact Us</h4>
+        <p>Email: contact@shelter.org</p>
+        <p>Phone: +91 98765 43210</p>
+      </div>
+    </div>
+    <div class="text-center text-gray-800 mt-8 font-semibold">© 2025 Shelter. All Rights Reserved.</div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+{% load static %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shelter | Vaccination</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="{% static 'css/vaccination.css' %}">
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <!-- Logo -->
+      <div class="logo">
+        <span>She</span><span class="highlight">lt</span><span>er</span><span class="paw">🐾</span>
+      </div>
+      <!-- Navigation -->
+      <nav class="flex items-center space-x-6">
+        <a href="index.html" class="text-gray-700 hover:text-yellow-500 font-medium">Home</a>
+        <a href="adoption.html" class="text-gray-700 hover:text-yellow-500 font-medium">Adoption</a>
+        <a href="rescue.html" class="text-gray-700 hover:text-yellow-500 font-medium">Rescue</a>
+        <a href="medical.html" class="text-gray-700 hover:text-yellow-500 font-medium">Medical</a>
+        <a href="vaccination.html" class="text-yellow-500 font-bold">Vaccination</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative h-[75vh] bg-[url('https://images.unsplash.com/photo-1583337130417-f7e0fc51f6f1?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center flex items-center justify-center text-center text-white">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative z-10 fade-in-up">
+      <h1 class="text-6xl font-extrabold mb-4">💉 Animal Vaccination</h1>
+      <p class="text-xl md:text-2xl font-light">Protecting pets for a healthier tomorrow</p>
+    </div>
+  </section>
+
+  <!-- Info Section -->
+  <section class="py-20 bg-gradient-to-b from-white to-yellow-50 fade-in-up">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-5xl font-extrabold mb-6 text-gray-800">Why Vaccination Matters</h2>
+      <p class="text-lg text-gray-600 mb-12">Vaccines protect pets against life-threatening diseases, ensuring they live long, healthy lives. Our shelter provides safe and comprehensive vaccination services to all rescued and adopted animals.</p>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="card bg-white rounded-2xl p-6 shadow-lg fade-in-up">
+          <h3 class="text-2xl font-bold mb-2 text-yellow-600">Core Vaccines</h3>
+          <p class="text-gray-600">Rabies, distemper, and parvovirus for dogs. Rabies and FVRCP for cats.</p>
+        </div>
+        <div class="card bg-white rounded-2xl p-6 shadow-lg fade-in-up">
+          <h3 class="text-2xl font-bold mb-2 text-yellow-600">Health Records</h3>
+          <p class="text-gray-600">Every vaccinated pet receives a digital health record with complete history.</p>
+        </div>
+        <div class="card bg-white rounded-2xl p-6 shadow-lg fade-in-up">
+          <h3 class="text-2xl font-bold mb-2 text-yellow-600">Expert Care</h3>
+          <p class="text-gray-600">Certified vets provide safe vaccination under expert supervision.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule Section -->
+  <section class="py-20 bg-gradient-to-b from-yellow-100 to-yellow-200 fade-in-up">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-4xl font-extrabold text-center mb-6 text-gray-800">Recommended Vaccination Schedule</h2>
+      <p class="text-lg text-gray-700 text-center mb-12">Follow this timeline for keeping pets healthy:</p>
+      <div class="overflow-x-auto">
+        <table class="w-full bg-white rounded-2xl shadow-lg fade-in-up">
+          <thead class="bg-yellow-400 text-gray-900">
+            <tr>
+              <th class="py-3 px-6 text-left">Age</th>
+              <th class="py-3 px-6 text-left">Dog Vaccines</th>
+              <th class="py-3 px-6 text-left">Cat Vaccines</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+            <tr class="hover:bg-yellow-50 transition">
+              <td class="py-4 px-6">6–8 weeks</td>
+              <td class="px-6">Distemper, Parvovirus</td>
+              <td class="px-6">FVRCP</td>
+            </tr>
+            <tr class="hover:bg-yellow-50 transition">
+              <td class="py-4 px-6">12 weeks</td>
+              <td class="px-6">Rabies, Bordetella</td>
+              <td class="px-6">Rabies</td>
+            </tr>
+            <tr class="hover:bg-yellow-50 transition">
+              <td class="py-4 px-6">16 weeks</td>
+              <td class="px-6">DHPP booster</td>
+              <td class="px-6">FVRCP booster</td>
+            </tr>
+            <tr class="hover:bg-yellow-50 transition">
+              <td class="py-4 px-6">Annually</td>
+              <td class="px-6">Rabies booster, DHPP</td>
+              <td class="px-6">Rabies booster, FVRCP</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Aftercare Tips -->
+  <section class="py-20 bg-gradient-to-b from-blue-50 to-blue-100 fade-in-up">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-extrabold mb-6 text-gray-800">Pet Care After Vaccination</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="card bg-white rounded-2xl p-6 shadow-lg fade-in-up">
+          <h3 class="text-xl font-bold mb-2 text-green-600">Rest & Comfort</h3>
+          <p class="text-gray-600">Allow your pet to rest for 24 hours to recover fully.</p>
+        </div>
+        <div class="card bg-white rounded-2xl p-6 shadow-lg fade-in-up">
+          <h3 class="text-xl font-bold mb-2 text-blue-600">Hydration</h3>
+          <p class="text-gray-600">Keep fresh water available at all times to aid recovery.</p>
+        </div>
+        <div class="card bg-white rounded-2xl p-6 shadow-lg fade-in-up">
+          <h3 class="text-xl font-bold mb-2 text-yellow-600">Monitor Health</h3>
+          <p class="text-gray-600">Watch for unusual reactions and consult a vet immediately if needed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-20 bg-gradient-to-b from-white to-yellow-50 fade-in-up text-center">
+    <h2 class="text-4xl font-extrabold mb-4 text-gray-800">Book a Vaccination Appointment</h2>
+    <p class="text-lg text-gray-600 mb-8">Ensure your pet’s well-being with our expert veterinary care.</p>
+    <a href="medical.html" class="px-10 py-4 bg-green-500 text-white font-bold rounded-full shadow-lg hover:bg-green-600 transition btn-animate">Book Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-12">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="text-xl font-bold text-white mb-4">🐾 Shelter</h3>
+        <p class="text-gray-400">Caring for pets, one vaccine at a time.</p>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold text-white mb-3">Quick Links</h4>
+        <ul class="space-y-2">
+          <li><a href="index.html" class="hover:text-yellow-400">Home</a></li>
+          <li><a href="adoption.html" class="hover:text-yellow-400">Adoption</a></li>
+          <li><a href="rescue.html" class="hover:text-yellow-400">Rescue</a></li>
+          <li><a href="medical.html" class="hover:text-yellow-400">Medical</a></li>
+          <li><a href="vaccination.html" class="hover:text-yellow-400">Vaccination</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold text-white mb-3">Contact Us</h4>
+        <p>Email: contact@shelter.org</p>
+        <p>Phone: +91 98765 43210</p>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold text-white mb-3">Helpline</h4>
+        <p>📞 1800-123-4567 (Toll-Free)</p>
+        <p class="text-gray-400 mt-2">Available 24/7 for animal health support.</p>
+      </div>
+    </div>
+    <div class="text-center text-gray-500 mt-8">© 2025 Shelter. All Rights Reserved.</div>
+  </footer>
+
+  <!-- Scroll Animations -->
+  <script>
+    const faders = document.querySelectorAll('.fade-in-up');
+    const appearOptions = { threshold: 0.2, rootMargin: "0px 0px -50px 0px" };
+    const appearOnScroll = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+
+    faders.forEach(fader => appearOnScroll.observe(fader));
+  </script>
+
+</body>
+</html>

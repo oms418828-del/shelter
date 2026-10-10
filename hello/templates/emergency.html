@@ -1,0 +1,140 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emergency Care - Shelter</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <div class="logo">
+        <span>She</span><span class="highlight">lt</span><span>er</span><span class="paw">🐾</span>
+      </div>
+      <nav class="flex items-center space-x-6">
+        <a href="index.html" class="text-gray-700 hover:text-red-500 font-medium">Home</a>
+        <a href="vaccination.html" class="text-gray-700 hover:text-red-500 font-medium">Vaccination</a>
+        <a href="emergency.html" class="text-red-600 font-bold">Emergency</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero flex justify-center items-center text-center text-white">
+    <div class="hero-overlay"></div>
+    <div class="relative z-10 fade-in-up">
+      <h1 class="text-6xl font-extrabold mb-4 pulse">🚑 Emergency Care</h1>
+      <p class="text-xl md:text-2xl font-light">We are here <span class="font-bold text-red-400">24/7</span> for injured and abandoned animals</p>
+      <a href="#report" class="mt-8 inline-block px-8 py-3 bg-red-600 rounded-full text-white font-bold shadow-lg hover:bg-red-700 transition">Report Emergency Now</a>
+    </div>
+  </section>
+
+  <!-- Emergency Info Section -->
+  <section class="py-20 bg-gradient-to-b from-red-50 to-white fade-in-up">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-extrabold text-center mb-12 text-gray-800">Immediate Help</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="card bg-white p-6 rounded-2xl shadow-lg text-center">
+          <h3 class="text-2xl font-bold text-red-600 mb-3">📞 24/7 Helpline</h3>
+          <p class="text-gray-600">Call <span class="font-semibold">1800-123-4567</span> anytime to report emergencies.</p>
+        </div>
+        <div class="card bg-white p-6 rounded-2xl shadow-lg text-center">
+          <h3 class="text-2xl font-bold text-red-600 mb-3">⛑ First Aid Tips</h3>
+          <p class="text-gray-600">Keep the animal calm, avoid food, and gently cover wounds until help arrives.</p>
+        </div>
+        <div class="card bg-white p-6 rounded-2xl shadow-lg text-center">
+          <h3 class="text-2xl font-bold text-red-600 mb-3">🏥 Nearest Clinics</h3>
+          <p class="text-gray-600">We partner with vet clinics for quick response and immediate treatment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="py-20 bg-gradient-to-b from-white to-red-50 fade-in-up">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-extrabold mb-12 text-gray-800">How Emergency Rescue Works</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="card bg-white p-6 rounded-2xl shadow-lg">
+          <h3 class="text-xl font-bold text-red-500 mb-3">1️⃣ Report</h3>
+          <p class="text-gray-600">Submit emergency details & photo through our online form or hotline.</p>
+        </div>
+        <div class="card bg-white p-6 rounded-2xl shadow-lg">
+          <h3 class="text-xl font-bold text-red-500 mb-3">2️⃣ Dispatch</h3>
+          <p class="text-gray-600">Our rescue team rushes to the location with medical first aid support.</p>
+        </div>
+        <div class="card bg-white p-6 rounded-2xl shadow-lg">
+          <h3 class="text-xl font-bold text-red-500 mb-3">3️⃣ Treatment</h3>
+          <p class="text-gray-600">The animal is treated by vets and shifted to a safe shelter environment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Emergency Form Section -->
+  <section id="report" class="py-20 bg-gradient-to-b from-red-100 to-red-200 fade-in-up">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-extrabold mb-6 text-gray-800">Report an Emergency</h2>
+      <p class="text-gray-600 mb-10">Upload details and a picture so we can dispatch immediate help</p>
+      <div class="bg-white rounded-2xl shadow-lg p-8">
+        <form>
+          <input type="text" placeholder="Your Name" class="w-full mb-4 p-3 border rounded-lg" required>
+          <input type="tel" placeholder="Contact Number" class="w-full mb-4 p-3 border rounded-lg" required>
+          <textarea placeholder="Describe the emergency..." class="w-full mb-4 p-3 border rounded-lg h-28" required></textarea>
+          <input type="file" accept="image/*" capture="camera" class="w-full mb-4 p-3 border rounded-lg bg-gray-50">
+          <button type="submit" class="px-8 py-3 bg-red-600 text-white font-bold rounded-lg shadow-lg hover:bg-red-700 transition pulse">🚑 Submit Emergency</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-12">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="text-xl font-bold text-white mb-4">🐾 Shelter</h3>
+        <p class="text-gray-400">Saving lives, one paw at a time.</p>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold text-white mb-3">Quick Links</h4>
+        <ul class="space-y-2">
+          <li><a href="index.html" class="hover:text-red-400">Home</a></li>
+          <li><a href="vaccination.html" class="hover:text-red-400">Vaccination</a></li>
+          <li><a href="emergency.html" class="hover:text-red-400">Emergency</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold text-white mb-3">Contact Us</h4>
+        <p>Email: contact@shelter.org</p>
+        <p>Phone: +91 98765 43210</p>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold text-white mb-3">Helpline</h4>
+        <p>📞 1800-123-4567 (Toll-Free)</p>
+        <p class="text-gray-400 mt-2">Available 24/7 for animal emergencies.</p>
+      </div>
+    </div>
+    <div class="text-center text-gray-500 mt-8">© 2025 Shelter. All Rights Reserved.</div>
+  </footer>
+
+  <script>
+    // Fade-in on scroll
+    const faders = document.querySelectorAll('.fade-in-up');
+    const appearOptions = { threshold: 0.2, rootMargin: "0px 0px -50px 0px" };
+    const appearOnScroll = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+
+    faders.forEach(fader => appearOnScroll.observe(fader));
+  </script>
+</body>
+</html>

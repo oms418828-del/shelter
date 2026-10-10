@@ -1,0 +1,65 @@
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+    /* Hero */
+    .hero {
+      background: url('https://images.unsplash.com/photo-1525253086316-d0c936c814f8?auto=format&fit=crop&w=1500&q=80') no-repeat center/cover;
+      height: 80vh;
+      position: relative;
+    }
+    .hero-overlay {
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      inset: 0;
+    }
+    /* Animations */
+    .fade-in-up {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    .fade-in-up.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .pulse {
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.1); opacity: 0.7; }
+    }
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0px 15px 30px rgba(0,0,0,0.25);
+    }
+    /* Logo */
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .logo .highlight {
+      background: linear-gradient(135deg, #ff414d, #ff914d);
+      color: #fff;
+      padding: 2px 10px;
+      border-radius: 12px;
+      box-shadow: 0 3px 6px rgba(255, 87, 87, 0.3);
+    }
+    .logo .paw {
+      font-size: 1.5rem;
+      color: #2ecc71;
+      animation: bounce 1.2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+  

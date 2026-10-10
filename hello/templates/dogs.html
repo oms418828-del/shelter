@@ -1,0 +1,127 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adopt a Dog - Shelter</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body class="text-gray-900">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-8 py-5">
+      <div class="text-2xl font-bold text-gray-900 flex items-center gap-2">
+        Shelter <span class="paw-bounce">🐾</span>
+      </div>
+      <nav class="flex items-center space-x-8 text-lg font-semibold">
+        <a href="index.html" class="hover:opacity-70">Home</a>
+        <a href="cats.html" class="hover:opacity-70">Cats</a>
+        <a href="birds.html" class="hover:opacity-70">Birds</a>
+        <a href="others.html" class="hover:opacity-70">Others</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Title Section -->
+  <section class="py-24 text-center">
+    <h1 class="page-title">Adopt a Dog</h1>
+    <p class="page-subtitle">Find your loyal companion and bring love home</p>
+  </section>
+
+  <!-- Adoption Section -->
+  <section class="max-w-6xl mx-auto px-6 pb-20 space-y-16">
+    
+    <!-- Dog 1 -->
+    <div class="dog-card">
+      <div class="dog-img-wrapper">
+        <img src="https://placedog.net/500/400?id=21" alt="Buddy">
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Buddy</h2>
+        <p class="text-gray-600 mb-4">Buddy is a 2-year-old Labrador Retriever. Playful and affectionate, he is looking for a family to join in their daily adventures.</p>
+        <button class="btn">Adopt Buddy</button>
+      </div>
+    </div>
+
+    <!-- Dog 2 -->
+    <div class="dog-card reverse">
+      <div class="dog-img-wrapper">
+        <img src="https://placedog.net/500/400?id=22" alt="Max">
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Max</h2>
+        <p class="text-gray-600 mb-4">Max is a loyal 3-year-old German Shepherd. Smart and protective, he needs a caring home with space to play.</p>
+        <button class="btn">Adopt Max</button>
+      </div>
+    </div>
+
+    <!-- Dog 3 -->
+    <div class="dog-card">
+      <div class="dog-img-wrapper">
+        <img src="https://placedog.net/500/400?id=23" alt="Lucy">
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Lucy</h2>
+        <p class="text-gray-600 mb-4">Lucy is a 1-year-old Beagle. Energetic and playful, she would love an active family to keep her company.</p>
+        <button class="btn">Adopt Lucy</button>
+      </div>
+    </div>
+
+    <!-- Dog 4 -->
+    <div class="dog-card reverse">
+      <div class="dog-img-wrapper">
+        <img src="https://placedog.net/500/400?id=24" alt="Charlie">
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Charlie</h2>
+        <p class="text-gray-600 mb-4">Charlie is a calm 5-year-old Golden Retriever. Perfect for families who want a gentle and loving pet.</p>
+        <button class="btn">Adopt Charlie</button>
+      </div>
+    </div>
+
+    <!-- Dog 5 -->
+    <div class="dog-card">
+      <div class="dog-img-wrapper">
+        <img src="https://placedog.net/500/400?id=25" alt="Bella">
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Bella</h2>
+        <p class="text-gray-600 mb-4">Bella is a sweet 4-year-old Spaniel. She loves quiet evenings, warm cuddles, and gentle families.</p>
+        <button class="btn">Adopt Bella</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-yellow-400 text-gray-900 py-12 mt-12">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8 text-center md:text-left">
+      <div>
+        <h3 class="text-xl font-bold mb-4">Shelter</h3>
+        <p class="text-gray-800">Giving abandoned dogs a second chance with caring families.</p>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-3">Quick Links</h4>
+        <ul class="space-y-2">
+          <li><a href="index.html" class="hover:opacity-70">Home</a></li>
+          <li><a href="cats.html" class="hover:opacity-70">Cats</a></li>
+          <li><a href="birds.html" class="hover:opacity-70">Birds</a></li>
+          <li><a href="others.html" class="hover:opacity-70">Others</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-3">Contact Us</h4>
+        <p>Email: contact@shelter.org</p>
+        <p>Phone: +91 98765 43210</p>
+      </div>
+    </div>
+    <div class="text-center text-gray-800 mt-8 font-semibold">© 2025 Shelter. All Rights Reserved.</div>
+  </footer>
+
+</body>
+</html>

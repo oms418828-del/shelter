@@ -1,0 +1,39 @@
+Project root: /mnt/data/repair_work/backend (1)
+
+Changes made:
+- Copied images from /mnt/data/repair_work/backend (1)/static/allimage to /mnt/data/repair_work/backend (1)/mysite/static/allimage
+- Updated settings.py at /mnt/data/repair_work/backend (1)/mysite/settings.py
+- Appended static serving code to /mnt/data/repair_work/backend (1)/hello/urls.py
+
+Images in /mnt/data/repair_work/backend (1)/mysite/static/allimage:
+- 1.jpg
+- 2.jpg
+- 3.jpg
+- 4.jpg
+- 5.jpg
+- 7.jpg
+- b5.jpg
+- background4.jpg
+- bird1.jpg
+- bird2.jpg
+- bird3.jpg
+- bird4.jpg
+- bird5.jpg
+- cat.jpg
+- cow.jpg
+- loginimage.jpg
+- main1.jpg
+- main2.jpg
+- main3.jpg
+- o1.jpg
+- o10.jpg
+- o2.jpg
+- o3.jpg
+- o4.jpg
+- o5.jpg
+- o8.jpg
+- o9.jpg
+- othersim.jpg
+- parrot.jpg
+- sala.jpg
+- street.jpg

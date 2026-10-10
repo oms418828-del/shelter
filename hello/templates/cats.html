@@ -1,0 +1,142 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adopt a Cat - Shelter</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body class="text-gray-900">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-8 py-5">
+      <div class="text-2xl font-bold text-gray-900 flex items-center gap-2">
+        Shelter <span class="paw-bounce">🐾</span>
+      </div>
+      <nav class="flex items-center space-x-8 text-lg font-semibold">
+        <a href="index.html" class="hover:opacity-70">Home</a>
+        <a href="dogs.html" class="hover:opacity-70">Dogs</a>
+        <a href="birds.html" class="hover:opacity-70">Birds</a>
+        <a href="others.html" class="hover:opacity-70">Others</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Title Section -->
+  <section class="py-24 text-center">
+    <h1 class="page-title">Adopt a Cat</h1>
+    <p class="page-subtitle">Find your purr-fect companion today</p>
+  </section>
+
+  <!-- Adoption Section -->
+  <section class="max-w-6xl mx-auto px-6 pb-20 space-y-16">
+    
+    <!-- Cat 1 -->
+    <div class="cat-card">
+      <div class="cat-img-wrapper">
+        <img src="1.jpg" alt="Mittens">
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Mittens</h2>
+        <p class="text-gray-600 mb-4">
+          Mittens is a 2-year-old playful tabby cat. She loves climbing, chasing toys, and snuggling after a long day. 
+          Friendly with kids and other pets, Mittens is a great fit for families who enjoy an active and loving companion.
+        </p>
+        <button class="btn">Adopt Mittens</button>
+      </div>
+    </div>
+
+    <!-- Cat 2 -->
+    <div class="cat-card reverse">
+      <div class="cat-img-wrapper">
+        <img src="2.jpg" alt="Shadow">
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Shadow</h2>
+        <p class="text-gray-600 mb-4">
+          Shadow is a calm 3-year-old black cat. Independent yet affectionate, he enjoys quiet company and sunny spots. 
+          He prefers peaceful homes and makes a loyal companion for those who love calm and gentle pets.
+        </p>
+        <button class="btn">Adopt Shadow</button>
+      </div>
+    </div>
+
+    <!-- Cat 3 -->
+    <div class="cat-card">
+      <div class="cat-img-wrapper">
+        <img src="3.jpg" alt="Luna">
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Luna</h2>
+        <p class="text-gray-600 mb-4">
+          Luna is a sweet 1-year-old Siamese cat. Curious and talkative, she’ll bring joy to any family. 
+          She loves exploring, playing with strings, and chatting with her humans in her own adorable way.
+        </p>
+        <button class="btn">Adopt Luna</button>
+      </div>
+    </div>
+
+    <!-- Cat 4 -->
+    <div class="cat-card reverse">
+      <div class="cat-img-wrapper">
+        <img src="4.jpg" alt="Oliver">
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Oliver</h2>
+        <p class="text-gray-600 mb-4">
+          Oliver is a 4-year-old ginger cat. Friendly and loyal, he loves cuddles and following you around. 
+          Known for his playful energy and love for belly rubs, Oliver is perfect for families who want a loving best friend.
+        </p>
+        <button class="btn">Adopt Oliver</button>
+      </div>
+    </div>
+
+    <!-- Cat 5 -->
+    <div class="cat-card">
+      <div class="cat-img-wrapper">
+        <img src="5.jpg" alt="Cleo">
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Cleo</h2>
+        <p class="text-gray-600 mb-4">
+          Cleo is a graceful 5-year-old Persian cat. Gentle and calm, she’s the perfect companion for peaceful homes. 
+          She loves being brushed, enjoys cozy napping spots, and brings elegance and warmth to any household.
+        </p>
+        <button class="btn">Adopt Cleo</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-yellow-400 text-gray-900 py-12 mt-12">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8 text-center md:text-left">
+      <div>
+        <h3 class="text-xl font-bold mb-4">Shelter</h3>
+        <p class="text-gray-800">Giving abandoned cats a second chance with loving families.</p>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-3">Quick Links</h4>
+        <ul class="space-y-2">
+          <li><a href="index.html" class="hover:opacity-70">Home</a></li>
+          <li><a href="dogs.html" class="hover:opacity-70">Dogs</a></li>
+          <li><a href="birds.html" class="hover:opacity-70">Birds</a></li>
+          <li><a href="others.html" class="hover:opacity-70">Others</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-3">Contact Us</h4>
+        <p>Email: contact@shelter.org</p>
+        <p>Phone: +91 98765 43210</p>
+      </div>
+    </div>
+    <div class="text-center text-gray-800 mt-8 font-semibold">© 2025 Shelter. All Rights Reserved.</div>
+  </footer>
+
+</body>
+</html>
